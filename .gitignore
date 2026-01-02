@@ -42,3 +42,16 @@
 
 # Clion
 .idea/
+
+# OpenGL
+libs/**/*.a
+libs/**/*.lib
+libs/**/*.dll
+libs/**/*.dll.a
+libs/**/*.so
+libs/**/*.dylib
+
+!libs/
+!libs/glad.c
+
+!include/
